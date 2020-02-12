@@ -7,6 +7,11 @@ function calc()
   var wt=parseFloat(document.getElementById('wt').value);
   var time=parseFloat(document.getElementById('time').value);
   var ewt=parseFloat(document.getElementById('ewt').value);
+  if(!mr || !wt || !time || !ewt)
+ {
+   alert("Please provide complete required data!")
+   return;
+ }
   var massFlowRate= (wt-ewt)/time;
   var q=massFlowRate/1000;
   var area=0.00455;
