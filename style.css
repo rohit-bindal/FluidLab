@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+}
+center
+{
+  font-style: italic;
+  color: yellow;
+  font-size: 50px;
+}
+a
+{
+  font-size: 30px;
+  text-decoration: underline;
+}
+form{
+  color: yellow;
+}
+list
+{
+  color: yellow;
+}
+h5
+{
+  color:white;
+  opacity: 0.6;
+}
+ol{
+  color: white;
+  opacity: 0.6;
+}
+h2
+{
+  color:red;
+  font-style: oblique;
+  font-stretch: normal;
+}

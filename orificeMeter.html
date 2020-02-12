@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Orifice Meter</title>
+  </head>
+  <body>
+<h2>Flow Measurement with an Orifice Meter</h2><hr color="white">
+<form>
+  <div class="form-group">
+  <label for="ewt">Weight of empty Bucket</label>
+  <input type="text" class="form-control" id="ewt" aria-describedby="">
+  </div>
+<div class="form-group">
+<label for="Rm">Manometric Reading (Rm)</label>
+<input type="text" class="form-control" id="Rm" aria-describedby="">
+</div>
+<div class="form-group">
+<label for="wt">Weight of water + bucket (kg)</label>
+<input type="text" class="form-control" id="wt">
+</div>
+<div class="form-group">
+<label for="time">Collection Time</label>
+<input type="text" class="form-control" id="time">
+</div>
+<button type="submit" class="btn btn-primary" id="btnOrifice">Get Data</button>
+</form>
+<br><br><br>
+<h5>Values Used:</h5>
+<ol>
+<li>Density of Water: 1000 kg/m3</li>
+<li>Diameter of pipe: 7.62 cm</li>
+<li>Diameter of particle: 0.0095m </li>
+<li>Viscosity of liquid: 0.00089</li>
+<li>Acceleration due to gravity: 9.81m/s2</li>
+<li>Density of CCl4: 1582 kg/m3</li>
+<li>Packed bed void fraction: 0.7</li>
+</ol>
+<script src="js/orifice.js">
+
+</script>
+  </body>
+</html>
