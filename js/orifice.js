@@ -15,7 +15,7 @@ function calcOrifice()
   var q=massFlowRate/1000;
   var u=q/0.00012661265;
   var re=(1000*u*0.0127)/0.00089;
-  var p=0.01*mr*9.81*582;
+  var p=0.01*mr*9.81*583;
   var a=0.002*p;
   var qt=0.00012721*(Math.sqrt(a));
   var c=q/qt;
