@@ -30,19 +30,7 @@ h5
 {
   color: green;
 }
-img{
-  width: 20px;
-  height: 20px;
-}
-#anchor
-{
-  font-size: 20px;
-}
-h5
-{
-  color:white;
-  opacity: 0.6;
-}
+
 ol{
   color: white;
   opacity: 0.6;
@@ -52,4 +40,16 @@ h2
   color:red;
   font-style: oblique;
   font-stretch: normal;
+}
+h5
+{
+  color: green;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+#anchor
+{
+  font-size: 20px;
 }
