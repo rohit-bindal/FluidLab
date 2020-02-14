@@ -22,7 +22,7 @@ list
 thead{
   color: yellow;
 }
-td
+td,th
 {
   color:white;
 }
