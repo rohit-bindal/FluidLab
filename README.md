@@ -1,5 +1,7 @@
 # Model Calculations Solver for some Fluid Lab Experiments
 
+## [LIVE DEMO](https://rohit-bindal.github.io/FluidLab/)
+
 |List of Experiments |
 |--- |
 |Caliberation of Rotameter |
