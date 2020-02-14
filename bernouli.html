@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Verification of Bernouli's Equation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h2>Verification of Bernouli's Equation</h2><hr color="white">
+    <form>
+      <div class="form-group">
+      <label for="ewt">Height of water in tank (cm)</label>
+      <input type="text" class="form-control" id="ht" aria-describedby="">
+      </div>
+<div class="form-group">
+<label for="Rm">Collection Time (s)</label>
+<input type="text" class="form-control" id="t" aria-describedby="">
+</div>
+</form>
+    <table class="table table-hover" id="myTable">
+  <thead>
+    <tr>
+      <th scope="col">S.No.</th>
+      <th scope="col">Piezometric Reading (cm)</th>
+      <th scope="col">c/s area of the pipe (cm<sup>2</sup>)</th>
+      <th scope="col">Velocity (u) cm/s</th>
+      <th scope="col">Velocity Head (cm)</th>
+      <th scope="col">Total Head (cm)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td><input type="text" name="" value="" id="0"></td>
+      <td id="9">6.17</td>
+      <td id="18"></td>
+      <td id="27"></td>
+      <td id="36"></td>
+    </tr>
+    <tr>
+      <th >2</th>
+      <td><input type="text" name="" value="" id="1"></td>
+      <td id="10">5.0</td>
+      <td id="19"></td>
+      <td id="28"></td>
+      <td id="37"></td>
+    </tr>
+    <tr>
+      <th >3</th>
+      <td><input type="text" name="" value="" id="2"></td>
+      <td id="11">4.16</td>
+      <td id="20"></td>
+      <td id="29"></td>
+      <td id="38"></td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td><input type="text" name="" value="" id="3"></td>
+      <td id="12">3.33</td>
+      <td id="21"></td>
+      <td id="30"></td>
+      <td id="39"></td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td><input type="text" name="" value="" id="4"></td>
+      <td id="13">2.72</td>
+      <td id="22"></td>
+      <td id="31"></td>
+      <td id="40"></td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td><input type="text" name="" value="" id="5"></td>
+      <td id="14">3.3</td>
+      <td id="23"></td>
+      <td id="32"></td>
+      <td id="41"></td>
+    </tr>
+    <tr>
+      <th >7</th>
+      <td><input type="text" name="" value="" id="6"></td>
+      <td id="15">4.23</td>
+      <td id="24"></td>
+      <td id="33"></td>
+      <td id="42"></td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td><input type="text" name="" value="" id="7"></td>
+      <td id="16">5.18</td>
+      <td id="25"></td>
+      <td id="34"></td>
+      <td id="43"></td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td><input type="text" name="" value="" id="8"></td>
+      <td id="17">6.41</td>
+      <td id="26"></td>
+      <td id="35"></td>
+      <td id="44"></td>
+    </tr>
+  </tbody>
+</table>
+<hr color="white">
+<button type="button" class="btn btn-light" id="btn">Get Data</button>
+<hr color='white'>
+    <h5>Values Used:</h5>
+    <ol>
+      <li>Acceleration due to gravity: 0.0981 cm/s<sup>2</sup></li>
+      <li>Cross-Sectional area of the measuring tank: 1000 cm<sup>2</sup></li>
+    </ol>
+    <script src="js/bernouli.js">
+
+    </script>
+  </body>
+</html>
