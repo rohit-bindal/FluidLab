@@ -19,6 +19,13 @@ list
 {
   color: yellow;
 }
+thead{
+  color: yellow;
+}
+td
+{
+  color:white;
+}
 h5
 {
   color:white;
