@@ -2,6 +2,7 @@ var btn=document.getElementById('btn');
 btn.addEventListener("click",mycalc);
 function mycalc()
 {
+  alert("All Data is now in Table!");
   var height=parseFloat(document.getElementById('ht').value);
   var time=parseFloat(document.getElementById('t').value);
   var values=new Array();
