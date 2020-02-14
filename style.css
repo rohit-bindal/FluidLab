@@ -28,6 +28,18 @@ td
 }
 h5
 {
+  color: green;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+#anchor
+{
+  font-size: 20px;
+}
+h5
+{
   color:white;
   opacity: 0.6;
 }
