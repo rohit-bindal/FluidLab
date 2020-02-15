@@ -17,7 +17,7 @@ function calc()
  var qi=(mr*3.785*0.001)/60;
  var cd=q/qi;
  alert("Mass Flow Rate: " +massFlowRate+" Kg/s"+"\r\n"+"Indicated Volumetric Flow Rate: "+qi+" m3/s"+"\r\nCross Sectional Area: 0.00012265 m2"+
-       "\r\nVolumetric Flow Rate: "+q+
+       "\r\nVolumetric Flow Rate: "+q+"m3/s"+
        "\r\nCoefficient of Discharge: "+cd
  );
  }
