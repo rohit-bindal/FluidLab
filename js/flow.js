@@ -16,7 +16,7 @@ function calc()
   var q=massFlowRate/1000;
   var area=0.000132665;
   var u=q/area;
-  var re=(1000*0.013*u)/0.00089;
+  var re=(1000*0.013*u)/0.001;
   var p=mr*(590)*9.81*0.01;
   var f=(p*0.013)/(2*1000*u*u*2);
   alert("Mass Flow Rate: " +massFlowRate+" Kg/s"+"\r\n"+"Volumetric Flow Rate: "+q+" m3/s"+"\r\n Cross Sectional Area of the bed: 0.00455 m2"+"\r\n Velocity of Water(u): "+u+" m/s"+
