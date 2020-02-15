@@ -19,7 +19,7 @@ function calc()
   var re=(1000*0.013*u)/0.001;
   var p=mr*(590)*9.81*0.01;
   var f=(p*0.013)/(2*1000*u*u*2);
-  alert("Mass Flow Rate: " +massFlowRate+" Kg/s"+"\r\n"+"Volumetric Flow Rate: "+q+" m3/s"+"\r\n Cross Sectional Area of the bed: 0.00455 m2"+"\r\n Velocity of Water(u): "+u+" m/s"+
+  alert("Mass Flow Rate: " +massFlowRate+" Kg/s"+"\r\n"+"Volumetric Flow Rate: "+q+" m3/s"+"\r\n Cross Sectional Area: "+area+" m2"+"\r\n Velocity of Water(u): "+u+" m/s"+
         "\r\nReynold's number of particle: "+re+
         "\r\nPressure Drop: "+p+" N/m2"+
         "\r\nFriction Factor: "+f+
