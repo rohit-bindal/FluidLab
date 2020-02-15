@@ -7,7 +7,7 @@ If you want to add some more experiments then I'll be happy to merge your commit
 
 |List of Experiments |
 |--- |
-|Caliberation of Rotameter |
+|Calibration of Rotameter |
 |Friction Losses Through Pipe |
 |Pressure Drop in packed bed |
 |Flow Measurement with an orifice meter |
