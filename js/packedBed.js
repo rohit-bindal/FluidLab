@@ -16,7 +16,7 @@ function calc()
   var q=massFlowRate/1000;
   var area=0.00455;
   var u=q/area;
-  var re=(1000*0.0095*u)/0.00089;
+  var re=(1000*0.0095*u)/0.001;
   var p=mr*(583)*9.81*0.01;
   var f=((150*(1-0.7))/re)+1.75;
   var f2=(0.0000035*p)/(u*u);
