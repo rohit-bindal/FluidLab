@@ -25,7 +25,7 @@ function calc()
         "\r\nPressure Drop: "+p+" N/m2"+
         "\r\nFriction Factor (Ergun Equation): "+f+
         "\r\nPacked Bed friction factor (f): "+f2+
-        "\r\nlog(f): "+Math.log10(f)+
+        "\r\nlog(f): "+Math.log10(f2)+
         "\r\nlog(Re): "+Math.log10(re)
 );
 }
