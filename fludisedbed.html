@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Fluidised Bed</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+<h2>Pressure Drop and void fraction in a fluidised bed</h2><hr color="white">
+<form>
+  <div class="form-group">
+  <label for="bh">Bed Height in meter (L<sub>f</sub>)</label>
+  <input type="text" class="form-control" id="bh" aria-describedby="">
+  </div>
+<div class="form-group">
+<label for="Rm">Manometric Reading in centimeter (R<sub>m</sub>)</label>
+<input type="text" class="form-control" id="Rm" aria-describedby="">
+</div>
+<div class="form-group">
+<label for="v">Volume (mL)</label>
+<input type="text" class="form-control" id="v">
+</div>
+<div class="form-group">
+<label for="time">Collection Time (s)</label>
+<input type="text" class="form-control" id="time">
+</div>
+<button type="submit" class="btn btn-primary" id="btnBed">Get Data</button>
+</form>
+<br><br><br>
+<h5 id="new">Values Used:</h5>
+<ol>
+  <li>Density of Water: 1000 kg/m<sup>3</sup></li>
+<li>Diameter of the spherical glass bed: 0.0047 m</li>
+<li>Inner diameter of the glass column: 0.0250 m</li>
+<li>Viscosity of liquid: 0.001</li>
+  <li>Acceleration due to gravity: 9.81m/s<sup>2</sup></li>
+  <li>Density of CCl4: 1583 kg/m<sup>3</sup></li>
+  <li>Number of Glass Beads: 700</li>
+  <li>Distance between the pressure taps: 1 m</li>
+</ol>
+<script src="js/fluidised.js">
+</script>
+  </body>
+</html>
